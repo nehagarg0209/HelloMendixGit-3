@@ -10,9 +10,23 @@
     {
       "suppressions": [],
       "disabledBestPractices": [],
-      "readRecommendations": [],
+      "readRecommendations": [
+        {
+          "code": "MXP006",
+          "locationObjects": [
+            {
+              "uuid": "feada6af-4cb6-4687-8311-8acc69ae07cf",
+              "fullPath": "MyFirstModule.ACT_ShowAllSelectedRows"
+            },
+            {
+              "uuid": "b183ae4f-f8a5-4335-aa59-57eda3be3123",
+              "fullPath": "actionButton2 (ActionButton) < 7f461796-ddd0-44a1-ad6a-d74df5ab3670 (WidgetValue) < e6e01b15-c1af-42cf-a5d8-9c246e9494a7 (WidgetProperty) < 47a597be-9b79-47cd-84f9-f411dfd724f2 (WidgetObject) < dataGrid21 (CustomWidget) < 8e9fb976-00c4-43a0-b709-80b81cfee208 (LayoutGridColumn) < 1c97bb0b-4805-44c5-87bf-1db1c66d870a (LayoutGridRow) < layoutGrid1 (LayoutGrid) < e1f3213f-5208-47d6-9664-0b53a96e6c1d (LayoutCallArgument) < c6e4512f-c343-47fb-8b72-f43186db188d (LayoutCall) < MyFirstModule.Home_Web"
+            }
+          ]
+        }
+      ],
       "suppressedRecommendations": [],
-      "hasShownRecommendationsNotificationForThisApp": false,
+      "hasShownRecommendationsNotificationForThisApp": true,
       "type": "Mendix.Modeler.MxAssist.PerformanceBot.Serialization.Configuration.PerformanceBotConfiguration, Mendix.Modeler.MxAssist.PerformanceBot.Serialization, Version=9.24.0.0, Culture=neutral, PublicKeyToken=null"
     }
   ]
